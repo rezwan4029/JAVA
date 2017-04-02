@@ -17,10 +17,10 @@ public class DFS {
 	static final int dy[] = { 0, 1, -1, 1, -1, 0, -1, 1 };
     
 	static boolean isValid(int x, int y, int n, int m){
-    	if(x < 0 || x >= n ) return false;
-    	if(y < 0 || y >= m ) return false;
-    	return true;
-    }
+		if(x < 0 || x >= n ) return false;
+		if(y < 0 || y >= m ) return false;
+		return true;
+    	}
 	
 	static int dfs(int i, int j, int n, int m){
 		visited[i][j] = true;
