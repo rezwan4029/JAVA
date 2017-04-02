@@ -82,9 +82,7 @@ public class ExpressionParser {
 
 		// String exp = "1+2*3*4+3*(2+2)-100"; // 63
 		String exp = "(2+300)*((21+3)*20+1)"; // 145262
-		 assert exp>="d":" Not valid";  
-		 Assertion.assert
-		//.(eval(exp));
-		// System.out.println((Double) engine.eval(exp) == eval(exp));
+		
+		System.out.println(eval(exp));
 	}
 }
