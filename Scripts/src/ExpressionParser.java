@@ -45,6 +45,7 @@ public class ExpressionParser {
   public static int eval(String s) {
     LinkedList<Integer> st = new LinkedList<Integer>();
     LinkedList<Character> op = new LinkedList<Character>();
+    
     for (int i = 0; i < s.length(); i++) {
       char c = s.charAt(i);
       if (isDelim(c))

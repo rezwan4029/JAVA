@@ -43,7 +43,7 @@ class HttpClient {
   }
 
   public static Response get(String url) {
-    int statusCode = 500;
+    int statusCode = HttpURLConnection.HTTP_INTERNAL_ERROR;
     try {
 
       URL obj = new URL(url);
